@@ -4,14 +4,11 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const DATA = [
-    ];
+const DATA = [];
 
 ReactDOM.render(
   <React.StrictMode>
-        <App dishes={DATA}/>
+    <App dishes={DATA} />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
