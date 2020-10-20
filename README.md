@@ -4,6 +4,7 @@ App to store all dishes you will cook soon including their ingridients
 
 ## Live Version
 
+https://super-cool-site-by-mary-the-cherry.netlify.app/
 
 ## How to use?
 
