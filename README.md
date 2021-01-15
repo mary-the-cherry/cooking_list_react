@@ -2,11 +2,18 @@
 
 App to store all dishes you will cook soon including their ingridients
 
-## Live Version
+## Purpose
 
-https://super-cool-site-by-mary-the-cherry.netlify.app/
+Api to learn React: 
 
-## How to use?
+- Components
+- States
+- Handle events
+- Lift states
+
+## The API
+
+Functionalities:
 
 New Entry Button: Add a new dish with its ingridients
 
@@ -19,4 +26,10 @@ Delete: Delelete a dish or its ingridient
 Filter Buttons: Filter the List that you see all dishes, dishes you already prepared or all not so far cooked dishes
 
 Enjoy the app!
+
+## Online Version
+
+https://super-cool-site-by-mary-the-cherry.netlify.app/
+
+
 
