@@ -1,13 +1,187 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Dosis', sans-serif;
+}
+
+h3,
+h4,
+h5,
+p,
+li,
+button,
+input,
+label {
+  font-family: 'Montserrat', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.background {
+  color: black;
+  width: 100%;
+  padding: 10px;
+}
+
+.app-complete {
+  border: 1px solid black;
+}
+
+.app-header {
+  position: relative;
+  text-align: center;
+}
+
+.document-title {
+  margin: 3vh auto;
+  font-size: 3em;
+}
+
+.entry-part-btn {
+  padding: 1vh;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.new-entry {
+  padding: 10px;
+}
+
+.new-entry form {
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 17px 0px rgba(133, 125, 133, 0.62);
+  padding: 15px;
+}
+
+.new-entry h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.new-ingridient {
+  position: relative;
+  justify-content: space-between;
+}
+
+.new-ingridient input {
+  width: 85%;
+}
+
+.new-ingridient button {
+  width: 13%;
+}
+
+.ingridient-list-dish {
+  margin: 3vh auto;
+}
+
+.add-dish-btn-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dish{
+  padding: 20px !important;
+  padding-left: 10vw !important;
+}
+
+.dish-list h2 {
+  font-size: 2.5em;
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.filter-button-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2vw;
+}
+
+.dish-list {
+  margin: 2vw 0 2vw 0;
+}
+
+.shopping-list-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2vw;
+}
+
+.changeNameInput div {
+  width: 100%;
+}
+
+.changeNameInput div button {
+  padding-left: 10px;
+}
+
+.dropdown-link {
+  position: relative;
+  left: -5vw;
+}
+
+.dropdown-ingridients {
+  position: relative;
+  left: -30vw;
+}
+
+.pop-up {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100000;
+}
+
+.pop-up-inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 10%;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 17px 0px rgba(133, 125, 133, 0.62);
+  background-color: white;
+  z-index: 1000000;
+  padding: 10px;
+}
+
+.pop-up-inner ul {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.pop-up ul li {
+  padding: 5px;
 }
