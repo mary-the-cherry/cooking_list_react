@@ -27,11 +27,13 @@ Filter Buttons: Filter the List that you see all dishes, dishes you already prep
 
 Enjoy the app!
 
-## Second Version with Error Messages for empty Fields
+## Release 2.0
+
+Second Version with Error Messages for empty Fields!
 
 ## Online Version
 
-https://super-cool-site-by-mary-the-cherry.netlify.app/
+https://cooking-is-fun.netlify.app/
 
 
 
